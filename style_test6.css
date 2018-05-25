@@ -1,0 +1,131 @@
+/* CSS reset start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset end */
+
+.clearfix{
+	clear: both;
+}
+
+.wrap{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.topbar{
+	background-color: #f6f6f6;
+	padding: 6px;
+}
+
+.topbar ul{
+	float: right;
+}
+
+.topbar ul li{
+	float: left;
+}
+
+.topbar li a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.topbar li img{
+	float: left;
+	margin-right: 5px;
+}
+
+.facebook{
+	border-right: 1px solid #cccccc;
+	padding-right: 8px;
+	margin-right: 8px;
+}
+
+.facebook a{
+	color: #4460a0;
+}
+
+.twitter a{
+	color: #00aaec;
+}
+
+.header h1{
+	float: left;
+	margin: 5px 0 5px 20px;
+}
+
+.header h1 a{
+	display: block;
+	width: 170px;
+	height: 36px;
+    background: url('../img/logo.png') no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header ul{
+	float: right;
+}
+
+.header ul li{
+	float: left;
+}
+
+.header li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #00cc99;
+	font-weight: bold;
+	line-height: 43px;
+	display: block;
+	height: 43px;
+	padding: 0 10px;
+	margin: 0 10px;
+}
+
+.header li a:hover{
+    border-bottom: 3px solid #00cc99;
+}
