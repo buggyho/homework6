@@ -100,7 +100,7 @@ table {
 	display: block;
 	width: 170px;
 	height: 36px;
-    background: url("img/logo.png") no-repeat;
+    background: url('https://github.com/buggyho/homework6/blob/master/img/logo.png?raw=true') no-repeat;
     text-indent: 101%;
     overflow: hidden;
     white-space: nowrap;
